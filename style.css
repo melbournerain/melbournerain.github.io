@@ -1,0 +1,33 @@
+html, body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(170, 197, 106);
+    text-align: center;
+}
+p::selection,
+h1::selection,
+a::selection {
+    background: rgb(137, 187, 96);
+}
+#ava {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+.layer {
+    height: 70px;
+    width: 70px;
+}
+
+h1, h3, p, a {
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 60px;
+    
+}
+p {
+    font-size: 25px;
+}
